@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comment App</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 col-sm-offset-3">
+        <h1 class="text-center text-danger">Comment App</h1>
+
+        <form id="todoForm">
+          <div class="form-group">
+            <input id="username" class="form-control text-left" placeholder="username">
+          </div>
+          <div class="form-group">
+            <input id="date" class="form-control text-left bg-danger" placeholder="enter date">
+          </div>
+          <div class="form-group">
+            <textarea id="comment" class="form-control text-left" placeholder="comment"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="button" onclick="myfunction()" class="btn btn-primary btn-lg pull-left">click me</button>
+           
+          </div>
+          <div class="form-group"> 
+        <button type="button" class="btn btn-warning btn-lg pull-right" id="btn">delete</button>
+
+        </div>
+        </form><br><br><br>
+
+        <ul id="commentList" class="list-group">
+        </ul>
+        </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
